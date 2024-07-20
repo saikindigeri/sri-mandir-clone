@@ -1,0 +1,202 @@
+/* src/components/PoojaSection.css */
+.pooja-section {
+  padding: 20px;
+  background: linear-gradient(to bottom, #FFA07A 10%, #FFFFFF 10%); /* Light orange to white gradient */
+}
+
+.carousel {
+  margin-bottom: 20px;
+}
+
+
+.pooja-image{
+  border-radius: 10px;
+}
+
+.car-container{
+
+
+
+  padding: 20px;
+  margin: 0;
+
+}
+.package-con{
+  display: flex;
+}
+
+.package-card{
+  border: 1px solid blue;
+  width: 300px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  margin: 15px;
+  align-items: center;
+}
+
+.car-heading{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 40px;
+}
+
+.pooja-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.puja-benefits{
+  display: flex;
+}
+
+.pooja-name{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+
+}
+
+button{
+  width: 70%;
+  background-color: rgb(10, 188, 10);
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  height: 50px;
+  border: none;
+}
+
+.pooja-des{
+  font-size: 15px;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.icon-pooja{
+  margin-right: 10px;
+  color: orange;
+  height: 30px;
+}
+.logo-des{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pooja-item {
+  flex: 1 1 30%;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid grey;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  border:1px lightgrey;
+
+}
+.upcoming-heading{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 30px;
+font-weight: bold;
+
+
+}
+
+.upcoming-des{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+}
+.pooja-item img {
+  width: 100%;
+  height: auto;
+}
+
+.packages-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.package-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.package-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.puja-detail-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-group {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.input-group input {
+  margin-left: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.close-popup {
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  float: right;
+}
+
+.package-details img {
+  width: 100%;
+  height: auto;
+}
+
+.packages-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.package-item {
+  margin-bottom: 15px;
+}
+
+.prasad-option button {
+  margin-right: 10px;
+}
+
+.booking-summary {
+  margin-top: 20px;
+}

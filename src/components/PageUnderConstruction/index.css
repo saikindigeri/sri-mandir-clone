@@ -1,0 +1,16 @@
+/* src/components/PageUnderConstruction.css */
+.under-construction {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .under-construction h1 {
+    font-size: 36px;
+    color: #ff5722;
+  }
+  
+  .under-construction p {
+    font-size: 18px;
+    color: #555;
+  }
+  

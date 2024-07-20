@@ -1,0 +1,26 @@
+/* src/components/PoojaBookings.css */
+.pooja-bookings {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .pooja-bookings h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .pooja-bookings p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .pooja-bookings button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  

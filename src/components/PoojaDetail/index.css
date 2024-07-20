@@ -1,0 +1,89 @@
+/* src/components/PoojaDetail.css */
+.pooja-detail {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .pooja-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .pooja-detail h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .package-selection {
+    margin-top: 20px;
+  }
+  
+  .package-item,
+  .package-option {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .package-option h4 {
+    font-size: 20px;
+  }
+  
+  .package-option p {
+    margin: 10px 0;
+  }
+  
+  .package-option button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .booking-details {
+    margin-top: 20px;
+  }
+  
+  .booking-step,
+  .review-booking,
+  .finalize-booking {
+    margin-bottom: 20px;
+  }
+  
+  .booking-step label,
+  .review-booking label,
+  .finalize-booking label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .booking-step input,
+  .finalize-booking input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .booking-step button,
+  .review-booking button,
+  .finalize-booking button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .booking-summary {
+    margin-top: 20px;
+  }
+  

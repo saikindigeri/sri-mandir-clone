@@ -1,0 +1,43 @@
+/* src/components/BookingDetails.css */
+.booking-details {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .booking-step,
+  .review-booking,
+  .finalize-booking {
+    margin-bottom: 20px;
+  }
+  
+  .booking-step label,
+  .review-booking label,
+  .finalize-booking label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .booking-step input,
+  .finalize-booking input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .booking-step button,
+  .review-booking button,
+  .finalize-booking button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .booking-summary {
+    margin-top: 20px;
+  }
+  
